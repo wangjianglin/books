@@ -1,0 +1,86 @@
+PODS:
+  - LinClient.swift (0.0.1):
+    - LinClient.swift/http (= 0.0.1)
+    - LinClient.swift/tcp (= 0.0.1)
+    - LinUtil.swift (= 0.0.1)
+  - LinClient.swift/http (0.0.1):
+    - LinUtil.swift (= 0.0.1)
+  - LinClient.swift/tcp (0.0.1):
+    - LinUtil.swift (= 0.0.1)
+  - LinCore.swift (0.0.1):
+    - LinCore.swift/CheckBox (= 0.0.1)
+    - LinCore.swift/Form (= 0.0.1)
+    - LinCore.swift/ImagePicker (= 0.0.1)
+    - LinCore.swift/Indicator (= 0.0.1)
+    - LinCore.swift/Message (= 0.0.1)
+    - LinCore.swift/Pick (= 0.0.1)
+    - LinCore.swift/Storyboards (= 0.0.1)
+    - LinCore.swift/Table (= 0.0.1)
+  - LinCore.swift/CheckBox (0.0.1)
+  - LinCore.swift/Form (0.0.1)
+  - LinCore.swift/ImagePicker (0.0.1)
+  - LinCore.swift/Indicator (0.0.1)
+  - LinCore.swift/Message (0.0.1)
+  - LinCore.swift/Pick (0.0.1)
+  - LinCore.swift/Storyboards (0.0.1)
+  - LinCore.swift/Table (0.0.1):
+    - LinCore.swift/Table/JASwipeCell (= 0.0.1)
+    - LinCore.swift/Table/MGSwipeTableCell (= 0.0.1)
+    - LinCore.swift/Table/MJRefresh (= 0.0.1)
+  - LinCore.swift/Table/JASwipeCell (0.0.1)
+  - LinCore.swift/Table/MGSwipeTableCell (0.0.1)
+  - LinCore.swift/Table/MJRefresh (0.0.1)
+  - LinServer.swift (0.0.1):
+    - LinServer.swift/CocoaHTTPServer (= 0.0.1)
+  - LinServer.swift/CocoaHTTPServer (0.0.1):
+    - LinServer.swift/CocoaHTTPServer/Categories (= 0.0.1)
+    - LinServer.swift/CocoaHTTPServer/CocoaAsyncSocket (= 0.0.1)
+    - LinServer.swift/CocoaHTTPServer/CocoaLumberjack (= 0.0.1)
+    - LinServer.swift/CocoaHTTPServer/Mime (= 0.0.1)
+    - LinServer.swift/CocoaHTTPServer/Responses (= 0.0.1)
+  - LinServer.swift/CocoaHTTPServer/Categories (0.0.1)
+  - LinServer.swift/CocoaHTTPServer/CocoaAsyncSocket (0.0.1)
+  - LinServer.swift/CocoaHTTPServer/CocoaLumberjack (0.0.1):
+    - LinServer.swift/CocoaHTTPServer/CocoaLumberjack/Extensions (= 0.0.1)
+  - LinServer.swift/CocoaHTTPServer/CocoaLumberjack/Extensions (0.0.1)
+  - LinServer.swift/CocoaHTTPServer/Mime (0.0.1)
+  - LinServer.swift/CocoaHTTPServer/Responses (0.0.1)
+  - LinUtil.swift (0.0.1):
+    - LinUtil.swift/SQLite (= 0.0.1)
+  - LinUtil.swift/SQLite (0.0.1)
+
+DEPENDENCIES:
+  - LinClient.swift (from `/lin/code/lib/Specs/LinClient.swift/0.0.1/LinClient.swift.podspec`)
+  - LinCore.swift (from `/lin/code/lib/Specs/LinCore.swift/0.0.1/LinCore.swift.podspec`)
+  - LinServer.swift (from `/lin/code/lib/Specs/LinServer.swift/0.0.1/LinServer.swift.podspec`)
+  - LinUtil.swift (from `/lin/code/lib/Specs/LinUtil.swift/0.0.1/LinUtil.swift.podspec`)
+
+EXTERNAL SOURCES:
+  LinClient.swift:
+    :path: /lin/code/lib/swift
+    :podspec: /lin/code/lib/Specs/LinClient.swift/0.0.1/LinClient.swift.podspec
+  LinCore.swift:
+    :path: /lin/code/lib/swift
+    :podspec: /lin/code/lib/Specs/LinCore.swift/0.0.1/LinCore.swift.podspec
+  LinServer.swift:
+    :path: /lin/code/lib/swift
+    :podspec: /lin/code/lib/Specs/LinServer.swift/0.0.1/LinServer.swift.podspec
+  LinUtil.swift:
+    :path: /lin/code/lib/swift
+    :podspec: /lin/code/lib/Specs/LinUtil.swift/0.0.1/LinUtil.swift.podspec
+
+CHECKOUT OPTIONS:
+  LinCore.swift:
+    :commit: 3fd24ddbaed514a8c6d7f25335eae1c7131a4484
+    :git: https://github.com/wangjianglin/swift.git
+  LinServer.swift:
+    :commit: 3fd24ddbaed514a8c6d7f25335eae1c7131a4484
+    :git: https://github.com/wangjianglin/swift.git
+
+SPEC CHECKSUMS:
+  LinClient.swift: 6da382215ac22baea46b67051e477892eca691d5
+  LinCore.swift: 0ad3cca38ba251c685898ea6c6413a9d5dd08a02
+  LinServer.swift: c3c19594995508798c1dad659b0a14ddeddfca66
+  LinUtil.swift: 3ca32f00a6cd6e342c91db0a8564772f8cbb3e11
+
+COCOAPODS: 0.39.0

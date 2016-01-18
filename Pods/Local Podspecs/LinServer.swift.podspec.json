@@ -1,0 +1,53 @@
+{
+  "name": "LinServer.swift",
+  "module_name": "LinServer",
+  "version": "0.0.1",
+  "summary": "A short description of util.",
+  "description": "description",
+  "homepage": "http://EXAMPLE/util",
+  "license": "MIT",
+  "authors": "wangjianglin",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/wangjianglin/swift.git"
+  },
+  "source_files": "server/server/*",
+  "public_header_files": "server/server/*.h",
+  "subspecs": [
+    {
+      "name": "CocoaHTTPServer",
+      "source_files": "server/server/CocoaHTTPServer/*",
+      "subspecs": [
+        {
+          "name": "CocoaAsyncSocket",
+          "source_files": "server/server/CocoaHTTPServer/CocoaAsyncSocket/*"
+        },
+        {
+          "name": "CocoaLumberjack",
+          "source_files": "server/server/CocoaHTTPServer/CocoaLumberjack/*",
+          "private_header_files": "server/server/CocoaHTTPServer/CocoaLumberjack/DDASLLogger.h",
+          "subspecs": [
+            {
+              "name": "Extensions",
+              "source_files": "server/server/CocoaHTTPServer/CocoaLumberjack/Extensions/*"
+            }
+          ]
+        },
+        {
+          "name": "Categories",
+          "source_files": "server/server/CocoaHTTPServer/Categories/*"
+        },
+        {
+          "name": "Mime",
+          "source_files": "server/server/CocoaHTTPServer/Mime/*"
+        },
+        {
+          "name": "Responses",
+          "source_files": "server/server/CocoaHTTPServer/Responses/*"
+        }
+      ]
+    }
+  ]
+}

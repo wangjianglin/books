@@ -1,0 +1,6 @@
+framework module LinClient {
+  umbrella header "LinClient.swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

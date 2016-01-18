@@ -1,0 +1,6 @@
+framework module LinCore {
+  umbrella header "LinCore.swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

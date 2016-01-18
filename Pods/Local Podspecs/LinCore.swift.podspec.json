@@ -1,0 +1,70 @@
+{
+  "name": "LinCore.swift",
+  "module_name": "LinCore",
+  "version": "0.0.1",
+  "summary": "A short description of util.",
+  "description": "description",
+  "homepage": "http://EXAMPLE/util",
+  "license": "MIT",
+  "authors": "wangjianglin",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/wangjianglin/swift.git"
+  },
+  "source_files": "core/core/*",
+  "public_header_files": "core/core/**/*.h",
+  "resources": [
+    "core/LinCore.bundle",
+    "core/Table/MJRefresh/MJRefresh.bundle"
+  ],
+  "subspecs": [
+    {
+      "name": "Table",
+      "source_files": "core/core/Table/*",
+      "subspecs": [
+        {
+          "name": "MJRefresh",
+          "source_files": "core/core/Table/MJRefresh/*"
+        },
+        {
+          "name": "JASwipeCell",
+          "source_files": "core/core/Table/JASwipeCell/*"
+        },
+        {
+          "name": "MGSwipeTableCell",
+          "source_files": "core/core/Table/MGSwipeTableCell/*"
+        }
+      ]
+    },
+    {
+      "name": "CheckBox",
+      "source_files": "core/core/CheckBox/*"
+    },
+    {
+      "name": "Form",
+      "source_files": "core/core/Form/*"
+    },
+    {
+      "name": "ImagePicker",
+      "source_files": "core/core/ImagePicker/*"
+    },
+    {
+      "name": "Indicator",
+      "source_files": "core/core/Indicator/*"
+    },
+    {
+      "name": "Message",
+      "source_files": "core/core/Message/*"
+    },
+    {
+      "name": "Pick",
+      "source_files": "core/core/Pick/*"
+    },
+    {
+      "name": "Storyboards",
+      "source_files": "core/core/Storyboards/*"
+    }
+  ]
+}

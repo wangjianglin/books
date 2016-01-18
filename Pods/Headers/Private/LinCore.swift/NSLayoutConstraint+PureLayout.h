@@ -1,0 +1,1 @@
+../../../LinCore.swift/core/core/Table/JASwipeCell/NSLayoutConstraint+PureLayout.h

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>About</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>lin</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>name_preference</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+            <string>author:</string>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+		</dict>
+        <dict>
+            <key>AutocapitalizationType</key>
+            <string>None</string>
+            <key>AutocorrectionType</key>
+            <string>No</string>
+            <key>DefaultValue</key>
+            <string>184041008@qq.com</string>
+            <key>IsSecure</key>
+            <false/>
+            <key>Key</key>
+            <string>email_preference</string>
+            <key>KeyboardType</key>
+            <string>Alphabet</string>
+            <key>Title</key>
+            <string>email:</string>
+            <key>Type</key>
+            <string>PSTitleValueSpecifier</string>
+        </dict>
+        
+        <dict>
+            <key>AutocapitalizationType</key>
+            <string>None</string>
+            <key>AutocorrectionType</key>
+            <string>No</string>
+            <key>DefaultValue</key>
+            <string>ver 0.1.0</string>
+            <key>IsSecure</key>
+            <false/>
+            <key>Key</key>
+            <string>ver_preference</string>
+            <key>KeyboardType</key>
+            <string>Alphabet</string>
+            <key>Title</key>
+            <string>version:</string>
+            <key>Type</key>
+            <string>PSTitleValueSpecifier</string>
+        </dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
